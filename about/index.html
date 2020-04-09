@@ -370,7 +370,12 @@
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
-                        strings: ['从来没有真正的绝境, 只有心灵的迷途','Never really desperate, only the lost of the soul'],
+                        strings:  ['志之所向，金石为开，谁能御之？',
+                                   '花开不是为了花落，而是为了开的更加灿烂。',
+                                   '没有伞的孩子必须努力奔跑！',
+                                   '欲望以提升热忱，毅力以磨平高山。',
+                                   '如果放弃太早，你永远都不知道自己会错过什么。',
+                                   '没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。'],
                         startDelay: 300,
                         typeSpeed: 100,
                         loop: true,
@@ -403,7 +408,7 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">3</a></span>
+    <span class="count"><a href="/">4</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -423,7 +428,7 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">3</a></span>
+    <span class="count"><a href="/">4</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -563,7 +568,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,3],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,4],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -1054,7 +1059,12 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
-
+    <script type="text/javascript">
+    var OriginTitile=document.title,st;
+    document.addEventListener("visibilitychange",function(){
+        document.hidden?(document.title="ヽ(●-`Д´-)ノ你要玩捉迷藏嘛",clearTimeout(st)):(document.title="(Ő∀Ő3)ノ好哦！",st=setTimeout(function(){document.title=OriginTitile},3e3))
+    })
+</script>
 </body>
 
 </html>
